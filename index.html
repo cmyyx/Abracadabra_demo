@@ -1,10 +1,11 @@
 <!doctype html>
-<html lang="zh-cn" class="mdui-theme-dark">
+<html lang="zh-cn" class="mdui-theme-dark" >
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="favicon.ico" />
     <title>魔曰 - Abracadabra</title>
+    <link rel="stylesheet" href="/css/global-styles.css">
     <script>
       Element.prototype._attachShadow = Element.prototype.attachShadow;
       Element.prototype.attachShadow = function () {
@@ -15,5 +16,6 @@
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
+    <script src="/js/global-init.js"></script>
   </body>
 </html>
